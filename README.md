@@ -2,7 +2,7 @@
 
 A fullscreen and responsive creative navigation in print media style or newspaper style made with HTML, CSS3, and GreenSock (GSAP).
 
-![Navigation in Print Media Style](/assets/img/navigation-in-print-media-style.png)
+![Navigation in Print Media Style](/assets/images/navigation-in-print-media-style.png)
 
 [Article on WANNABEDEV](https://wannabedev.io/tutorials/navigation-in-print-media-style)
 
