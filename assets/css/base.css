@@ -1,0 +1,52 @@
+/**
+ * base.css
+ *
+ * Licensed under the MIT license.
+ * https://opensource.org/license/mit/
+ * 
+ * Copyright 2023, WANNABEDEV
+ * https://wannabedev.io
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway:300,400,900');
+
+/* Header */
+.header {
+    position: fixed;
+    display: block;
+    width: 96%;
+    width: calc( 100% - 32px );
+    height: 36px;
+    margin: 0 auto;
+    color: #3498db;
+    text-align: center;
+    bottom: 16px; right: 16px; left: 16px;
+    z-index: 1000;
+    text-align: right;
+}
+
+.header .links {
+    background-color: rgba(0, 0, 0, 0.15);
+    position: relative;
+    display: inline-block;
+    padding: 4px 16px;
+    padding-left: 6px;
+}
+
+.header .links a {
+    padding-left: 10px;
+    color: rgba(0, 0, 0,0.75);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    outline: 0px none;
+    outline: 0px;
+    transition: all .3s ease;
+    z-index: 2;
+}
+
+.header .links a:hover {
+    color: rgba(0, 0, 0,1);
+}
